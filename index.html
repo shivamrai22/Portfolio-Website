@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+
+    <title>Shivam Rai - Portfolio</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <script type="text/javascript" src="JavaScript/index.js"></script>
+
+    <link rel="stylesheet" href="Css/style.css" />
+  </head>
+
+  <body>
+    <header>
+      <nav>
+        <div class="right">
+          <ul>
+            <li><a href="#two">Home</a></li>
+            <li><a href="#three">About</a></li>
+            <li><a href="#four">Certificate</a></li>
+            <li><a href="#five">Projects</a></li>
+            <li><a href="#six">Contact</a></li>
+          </ul>
+        </div>
+        <nav id="hamburger-nav">
+          <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+            <div class="menu-links">
+              <li><a href="#three" onclick="toggleMenu()">About</a></li>
+              <li><a href="#four" onclick="toggleMenu()">Certificate</a></li>
+              <li><a href="#five" onclick="toggleMenu()">Projects</a></li>
+              <li><a href="#six" onclick="toggleMenu()">Contact</a></li>
+            </div>
+          </div>
+        </nav>
+      </nav>
+    </header>
+
+    <main>
+      <section id="home_section"></section>
+      <section class="firstSection" id="two">
+        <div class="leftSection">
+          <div class="leftSectionText">
+            Hello I'm <br /><span class="purple">Shivam</span><br />
+            <span class="animated">FrontEnd Devloper</span>
+          </div>
+
+          <div class="button">
+            <button class="btn">
+              <a href="./Images/Shivam Kumar Rai - Resume.pdf"
+                >Dowenload Resume</a
+              >
+            </button>
+          </div>
+        </div>
+        <div class="rightSection">
+          <img src="Images/Profile-Pic.png" alt="" />
+        </div>
+      </section>
+      <section class="secondSection" id="three">
+        <p class="section__text__p1">Get To Know More</p>
+        <h1 class="title">About Me</h1>
+        <div class="container">
+          <div class="second-image">
+            <img
+              src="./Images/Profile-Pic2.jpeg"
+              alt="Profile picture"
+              class="about-pic"
+            />
+          </div>
+          <div class="right-container">
+            <div class="education-container">
+              <img
+                src="./Images/education.png"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>Education</h3>
+              <p>
+                BCA Bachelors Degree<br />GLA University, Mathura
+                <br />2019-2022
+              </p>
+            </div>
+            <div class="about-container">
+              <p>
+                I am always interested in computers and technologies and want to
+                make a career in that. I completed my BCA degree from GLA
+                University and I am ready to secure challenging roles in my
+                field. I want to use my skills and develop them as well as. I am
+                a self-learner, I had problem solving and a Team Management
+                Skills.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="thirdSection">
+        <h1 class="title">Technical Skills</h1>
+        <div class="skill">
+          <article>
+            <img
+              src="./Images/checkmark.png"
+              alt="Experience icon"
+              class="icon"
+            />
+            <div>
+              <h3>HTML</h3>
+              <p>Experienced</p>
+            </div>
+          </article>
+          <article>
+            <img
+              src="./Images/checkmark.png"
+              alt="Experience icon"
+              class="icon"
+            />
+            <div>
+              <h3>CSS</h3>
+              <p>Experienced</p>
+            </div>
+          </article>
+          <article>
+            <img
+              src="./Images/checkmark.png"
+              alt="Experience icon"
+              class="icon"
+            />
+            <div>
+              <h3>JavaScript</h3>
+              <p>Intermediate</p>
+            </div>
+          </article>
+          <article>
+            <img
+              src="./Images/checkmark.png"
+              alt="Experience icon"
+              class="icon"
+            />
+            <div>
+              <h3>Java</h3>
+              <p>Basic</p>
+            </div>
+          </article>
+          <article>
+            <img
+              src="./Images/checkmark.png"
+              alt="Experience icon"
+              class="icon"
+            />
+            <div>
+              <h3>C++</h3>
+              <p>Basic</p>
+            </div>
+          </article>
+          <article>
+            <img
+              src="./Images/checkmark.png"
+              alt="Experience icon"
+              class="icon"
+            />
+            <div>
+              <h3>C</h3>
+              <p>Basic</p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="fourthSection" id="four">
+        <h1 class="title">Certification</h1>
+        <div class="Certification">
+          <div>
+            <h3>
+              <a href="Images/Html Certificate.pdf"
+                >Successfully Completed HTML Course</a
+              >
+            </h3>
+            <p>From Udemy</p>
+          </div>
+          <div>
+            <h3>
+              <a href="Images/Css certificate.pdf"
+                >Successfully Completed CSS Course</a
+              >
+            </h3>
+            <p>From Udemy</p>
+          </div>
+          <div>
+            <h3>
+              <a href="Images/JavaScript Certificate.pdf"
+                >Successfully Completed JavaScript Course</a
+              >
+            </h3>
+            <p>From Udemy</p>
+          </div>
+          <div>
+            <h3>
+              <a href="Images/Java Certification.pdf"
+                >Successfully completed Java Cours</a
+              >e
+            </h3>
+            <p>From Udemy</p>
+          </div>
+          <div class>
+            <h3>
+              <a href="/Images/TCSion certificate.pdf"
+                >Complete TCSion course: knock down the lock down</a
+              >
+            </h3>
+            <p>From TCSion</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="fifthSection" id="five">
+        <h1 class="title">Projects</h1>
+        <div class="projects">
+          <div class="project">
+            <h2 class="project-heading">Portfolio Website</h2>
+            <h4>Role: Front-End Devloper & Backend devloper</h4>
+            <p>
+              This is online portfolio website, which is very helpfull to the
+              user to show his technical skills, his projects & certification.
+              It is responsive website which is very user-friendly. This website
+              also contain the User Contact Information.
+            </p>
+          </div>
+          <div class="project">
+            <h2 class="project-heading">Online Room Service</h2>
+            <h4>Role: Front-End Devloper and Document Keeper</h4>
+            <p>
+              It is a platform where user can easily books or cancel Rooms. It
+              helps to keep all records online. Which reduces paper wastage.It
+              is very useful in the time of covid Pandemic. In this project, the
+              language used is visual basic.
+            </p>
+          </div>
+          <div class="project">
+            <h2 class="project-heading">Stock Portfolio Tracker</h2>
+            <h4>Role: Front-End Devloper and Document Keeper</h4>
+            <p>
+              It is a platform where user can track their whole stock market
+              portfolio. this project makes stock market easy for new users.It
+              helps to manage risk.It is very user-friendly. In this project,
+              The language used is HTML,CSS,JavaScript,sql.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="sixthSection" id="six">
+        <p class="section__text__p1">Get in Touch</p>
+        <h1 class="title">Contact Me</h1>
+        <div class="contact-info-upper-container">
+          <div class="contact-info-container">
+            <img
+              src="./Images/email.png"
+              alt="Email icon"
+              class="icon contact-icon email-icon"
+            />
+            <p>
+              <a href="mailto:25.Shivrai@gmail.com">25.Shivrai@gmail.com</a>
+            </p>
+          </div>
+          <div class="contact-info-container">
+            <img
+              src="./Images/phone.png"
+              alt="Email icon"
+              class="icon contact-icon email-icon"
+            />
+            <p><a>8960939681</a></p>
+          </div>
+          <div class="contact-info-container">
+            <img
+              src="./Images/whatsapp.png"
+              alt="LinkedIn icon"
+              class="icon contact-icon"
+            />
+            <p><a href="https://wa.me/8960939681">Whatsapp</a></p>
+          </div>
+          <div class="contact-info-container">
+            <img
+              src="./Images/linkedin.png"
+              alt="LinkedIn icon"
+              class="icon contact-icon"
+            />
+            <p>
+              <a href="https://www.linkedin.com/in/shivam-rai-ba72921b1/"
+                >LinkedIn</a
+              >
+            </p>
+          </div>
+          <div class="contact-info-container">
+            <img
+              src="./Images/github.png"
+              alt="LinkedIn icon"
+              class="icon contact-icon"
+            />
+            <p><a href="https://github.com/shivamrai22">Github</a></p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>Copyright &#169; 2023 Shivam Kumar Rai. All Rights Reserved.</p>
+    </footer>
+    <script src="/JavaScript/script.js"></script>
+  </body>
+</html>
