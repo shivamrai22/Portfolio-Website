@@ -8,7 +8,7 @@ nav {
   justify-content: end;
   align-items: center;
   height: 50px;
-  margin-right: 2rem;
+  margin-right: 1rem;
 }
 
 nav ul {
@@ -150,14 +150,16 @@ nav .menu {
 }
 
 .animated {
-  font-size: 40px;
+  font-size: 4vw;
   color: orangered;
+  
 
 }
 
 .purple {
   color: black;
-  font-size: 3rem;
+  font-size: 5vw;
+  font-weight: 500;
 }
 
 .leftSection .button {
@@ -165,10 +167,11 @@ nav .menu {
 }
 
 .leftSection .btn {
-  margin-top: 25px;
+  margin-top: 1rem;
   margin-left: 10px;
   margin-right: 10px;
-  padding: 1rem;
+  padding: 20px 15px;
+    font-size: 80%;
   background-color: #22204a;
   background: rgb(30, 29, 29);
   border: 1px solid black;
@@ -206,7 +209,7 @@ nav .menu {
   text-align: center;
   font-size: 1rem;
   color: rgb(85, 85, 85);
-  margin-bottom: -30px;
+  margin-bottom: -40px;
 }
 
 .title {
@@ -358,6 +361,7 @@ article p {
 
 .projects p {
   color: rgb(85, 85, 85);
+  text-align: center;
 }
 
 .contact-info-upper-container {
@@ -406,6 +410,7 @@ article p {
   .firstSection {
     flex-direction: column-reverse;
     text-align: center;
+    margin-bottom: 0;
   }
 
   .firstSection img {
@@ -447,9 +452,9 @@ article p {
     flex-direction: column;
   }
 
-  .leftSection .animated {
-    font-size: 2rem;
-  }
+  /* .leftSection .animated {
+    font-size: 30px;
+  } */
 }
 
 @media (max-width:767px) {
@@ -460,39 +465,6 @@ article p {
   #hamburger-nav {
     display: initial;
   }
-
-  .leftSection .animated {
-    font-size: 1.6rem;
-  }
-
-}
-
-@media (max-width:525px) {
-  h3 {
-    font-size: 0.5rem;
-  }
-
-  .leftSectionText {
-    font-size: 1rem;
-  }
-
-  .purple {
-    font-size: 2rem;
-  }
-
-  .leftSection .animated {
-    font-size: 1rem;
-  }
-
-  .Certification div {
-    margin-left: 1rem;
-    margin-right: 1rem;
-  }
-
-  .contact-info-upper-container a {
-    font-size: 1rem;
-  }
-
 }
 
 @media (max-width:640px) {
@@ -531,7 +503,34 @@ article p {
 
 }
 
+@media (max-width:525px) {
+  .leftSection .btn{
+    font-size: 64%;
+    padding: 15px 12px;
+  }
+  h3 {
+    font-size: 0.5rem;
+  }
+
+  .leftSectionText {
+    font-size: 1rem;
+  }
+  .Certification div {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+
+  .contact-info-upper-container a {
+    font-size: 1rem;
+  }
+
+}
+
 @media (max-width:420px) {
+  .leftSection .btn{
+    font-size: 55%;
+    padding: 15px 12px;
+  }
   .title {
     font-size: 2rem;
   }
@@ -549,5 +548,12 @@ article p {
 @media (max-width:400px) {
   .contact-info-upper-container a {
     font-size: 1rem;
+  }
+}
+
+@media (max-width:380px) {
+  .leftSection .btn{
+    font-size: 45%;
+    padding: 15px 10px;
   }
 }
