@@ -322,20 +322,22 @@ article p {
   border-radius: 2rem;
 }
 
-.project {
-  background: rgb(250, 250, 250);
-  padding: 1.5rem;
-  margin-bottom: 2rem;
-  border-radius: 2rem;
-  border: rgb(163, 163, 163) 0.1rem solid;
-  text-align: center;
-}
-
 .projects {
   display: flex;
   margin-left: 5rem;
   margin-right: 5rem;
   margin-bottom: 2rem;
+}
+
+.project {
+  background: rgb(250, 250, 250);
+  padding: 1rem;
+  margin-bottom: 2rem;
+  border-radius: 2rem;
+  border: rgb(163, 163, 163) 0.1rem solid;
+  text-align: center;
+  margin-left:0.5rem;
+  margin-right: 0.5rem;
 }
 
 .projects h4 {
@@ -449,8 +451,8 @@ article p {
 
 @media (max-width:640px) {
   .fifthSection .projects {
-    margin-left: 1rem;
-    margin-right: 1rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
   }
 
   .secondSection .container {
