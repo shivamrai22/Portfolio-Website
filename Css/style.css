@@ -8,7 +8,7 @@ nav {
   justify-content: end;
   align-items: center;
   height: 50px;
-  margin-right: 1rem;
+  margin-right: 10px;
 }
 
 nav ul {
@@ -37,9 +37,6 @@ nav .menu {
   display: none;
   font-size: 1.5rem;
 }
-/* ================================
- */
-
  #hamburger-nav {
   display: none;
 }
@@ -117,9 +114,6 @@ nav .menu {
 .hamburger-icon span:first-child {
   transform: none;
 }
-
- /* ===================================== */
-
 .left {
   font-size: 1.5rem;
 }
@@ -130,14 +124,8 @@ nav .menu {
   align-items: center;
   margin-bottom: 3rem;
 }
-
-.firstSection>div {
-  /*here we use > symbol to only apply width in first div*/
-  width: 40%;
-}
-
 .leftSection {
-  font-size: 1.2rem;
+  font-size: 2.5vw;
   margin-top: 130px;
   margin-bottom: 130px;
   margin-left: 70px;
@@ -152,13 +140,11 @@ nav .menu {
 .animated {
   font-size: 4vw;
   color: orangered;
-  
-
 }
 
 .purple {
   color: black;
-  font-size: 5vw;
+  font-size: 5.2vw;
   font-weight: 500;
 }
 
@@ -168,16 +154,16 @@ nav .menu {
 
 .leftSection .btn {
   margin-top: 1rem;
-  margin-left: 10px;
-  margin-right: 10px;
-  padding: 20px 15px;
-    font-size: 80%;
+  margin-left: 0.6rem;
+  margin-right: 0.6rem;
+  padding: 1.2rem 1rem;
+  font-size: 100%;
   background-color: #22204a;
   background: rgb(30, 29, 29);
   border: 1px solid black;
   border-radius: 2rem;
   cursor: pointer;
-  font-weight: 600;
+  font-weight: 500;
 }
 
 .leftSection .btn:hover {
@@ -191,8 +177,8 @@ nav .menu {
 }
 
 .rightSection img {
-  width: 80%;
-  margin: 50px 0px;
+   width: 37vw;
+  margin: 3.1rem 0rem;
   border-radius: 50%;
 }
 
@@ -209,7 +195,7 @@ nav .menu {
   text-align: center;
   font-size: 1rem;
   color: rgb(85, 85, 85);
-  margin-bottom: -40px;
+  margin-bottom: -35px;
 }
 
 .title {
@@ -343,8 +329,6 @@ article p {
   border-radius: 2rem;
   border: rgb(163, 163, 163) 0.1rem solid;
   text-align: center;
-  margin-left: 10px;
-  margin-right: 10px;
 }
 
 .projects {
@@ -410,13 +394,13 @@ article p {
   .firstSection {
     flex-direction: column-reverse;
     text-align: center;
-    margin-bottom: 0;
+    margin-bottom: -2rem;
   }
 
   .firstSection img {
-    min-width: 20vw;
-    margin-bottom: -5rem;
-    margin-top: 5rem;
+    min-width: 38vw;
+    margin-bottom: -6.5rem;
+    margin-top: 4rem;
   }
 
   .firstSection .leftSection {
@@ -451,10 +435,6 @@ article p {
   .projects {
     flex-direction: column;
   }
-
-  /* .leftSection .animated {
-    font-size: 30px;
-  } */
 }
 
 @media (max-width:767px) {
@@ -488,13 +468,6 @@ article p {
     margin-right: 1rem;
 
   }
-
-  .fifthSection {
-    margin-left: 1rem;
-    margin-right: 1rem;
-
-  }
-
   .sixthSection .contact-info-upper-container {
     margin-left: 1rem;
     margin-right: 1rem;
@@ -504,10 +477,6 @@ article p {
 }
 
 @media (max-width:525px) {
-  .leftSection .btn{
-    font-size: 64%;
-    padding: 15px 12px;
-  }
   h3 {
     font-size: 0.5rem;
   }
@@ -527,10 +496,6 @@ article p {
 }
 
 @media (max-width:420px) {
-  .leftSection .btn{
-    font-size: 55%;
-    padding: 15px 12px;
-  }
   .title {
     font-size: 2rem;
   }
@@ -548,12 +513,5 @@ article p {
 @media (max-width:400px) {
   .contact-info-upper-container a {
     font-size: 1rem;
-  }
-}
-
-@media (max-width:380px) {
-  .leftSection .btn{
-    font-size: 45%;
-    padding: 15px 10px;
   }
 }
