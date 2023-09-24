@@ -161,7 +161,7 @@ nav .menu {
   background-color: #22204a;
   background: rgb(30, 29, 29);
   border: 1px solid black;
-  border-radius: 2rem;
+  border-radius: 3rem;
   cursor: pointer;
   font-weight: 500;
 }
@@ -232,6 +232,7 @@ nav .menu {
 .education-container h3 {
   margin-bottom: -10px;
   font-size: 2.5rem;
+  font-weight: 800;
 }
 
 .education-container p {
@@ -275,6 +276,7 @@ article {
 article h3 {
   margin-top: 0px;
   font-size: 1.5rem;
+  font-weight: 500;
 }
 
 article p {
@@ -290,6 +292,7 @@ article p {
 .Certification h3 {
   margin-top: 0px;
   font-size: 1.5rem;
+  font-weight: 800;
 }
 
 .Certification p {
@@ -409,6 +412,17 @@ article p {
     text-align: center;
     margin: 7rem -2rem;
   }
+  .container {
+    flex-direction: column;
+  }
+
+  .second-image img {
+    display: none;
+  }
+
+  .secondSection .title {
+    margin-bottom: -2rem;
+  }
 
   .contact-info-upper-container {
     flex-wrap: wrap;
@@ -422,17 +436,6 @@ article p {
 }
 
 @media (max-width:880px) {
-  .container {
-    flex-direction: column;
-  }
-
-  .second-image img {
-    display: none;
-  }
-
-  .secondSection .title {
-    margin-bottom: -2rem;
-  }
 
   .projects {
     flex-direction: column;
